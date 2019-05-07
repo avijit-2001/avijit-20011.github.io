@@ -1,0 +1,60 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.logo{
+	border:1px solid white;
+	border-radius: 50%;
+	transition: width 0.25s, height 0.25s;
+    transition-property: width, height;
+    transition-duration: 0.25s, 0.25s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+
+}
+.tm-container
+{  
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+body{
+	background:#f2f2f2 ;
+}
+.tm-header{
+	background: white;
+}
+.tm-nav{
+	float: right;
+}
+.tm-logo{
+
+}
+.tm-nav ul li{
+
+	display: inline-block;
+	background-color: #dddddd;
+}
+.tm-nav ul li a{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	line-height: 60px;
+	color: 	#1a0000;
+	font-family: 'Gugi', cursive;
+	font-size: 1.2em;
+}
+.tm-nav ul li a{
+	color: grey;
+	display: block;
+}
+.tm-nav ul li a:hover{
+	color: blue;
+	background-color: #111;
+}
+.tm-nav ul li a:active 
+{
+  background-color: #4CAF50;
+}
